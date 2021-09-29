@@ -36,3 +36,45 @@
     transform: rotate(360deg);
   }
 }
+
+header {
+  background: #1e65ff;
+  padding: 10px;
+}
+
+header h1 {
+  color: white;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 100px; */
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}
